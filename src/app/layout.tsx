@@ -13,11 +13,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <div>
-        <nav className="bg-blue-500 text-white p-4">
-          <h1 className="text-2xl">Navbar</h1>
-        </nav>
-        <main className="container mx-auto mt-4 p-4 rounded-lg shadow-md mb-4">
+      <div className="bg-primary">
+        <main className="flex items-center h-screen justify-between p-4 md:p-24">
           {children}
         </main>
       </div>
