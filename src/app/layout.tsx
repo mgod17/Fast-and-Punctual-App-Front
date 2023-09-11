@@ -1,3 +1,4 @@
+import Navbar from "./commons/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <div className="bg-primary">
+        <Navbar />
         <main className="flex items-center h-screen justify-between p-4 md:p-24">
           {children}
         </main>
