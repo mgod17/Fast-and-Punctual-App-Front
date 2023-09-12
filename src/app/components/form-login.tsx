@@ -1,12 +1,11 @@
 import ButtonLogin from "../commons/button";
-import PasswordInput from "../commons/input";
 
 export default function FormLogin() {
   return (
     <div className="text-center w-full items-center">
       <form className="rounded px-8 pt-6 pb-8 mb-4  ">
         <div className="mb-8 flex items-center">
-          <img src="/login.svg" alt="login" />
+          {/* <img src="/login.svg" alt="login" /> */}
         </div>
         <div className="flex items-center appearance-none bg-inherit border border-white rounded-lg py-0 px-3 text-white mb-3 leading-tight focus:outline-none  h-[45px] w-full">
           <svg

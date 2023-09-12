@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <div className="bg-primary">
-        <main className="flex items-center h-screen justify-between p-4 md:p-24">
+        <main className="flex justify-center items-center h-screen  p-4 md:p-24">
           {children}
         </main>
       </div>
