@@ -29,7 +29,7 @@ export default function FormLogin() {
             placeholder="email@contraseña.com"
           />
         </div>
-        <div className="flex items-center appearance-none bg-inherit border border-white rounded-lg py-0 px-3 text-white mb-3 leading-tight focus:outline-none  h-[45px] w-full">
+        <div className="flex items-center appearance-none bg-inherit border border-white rounded-lg py-0 px-3 text-white mb-5 leading-tight focus:outline-none  h-[45px] w-full">
           <svg
             width="15"
             height="17"
