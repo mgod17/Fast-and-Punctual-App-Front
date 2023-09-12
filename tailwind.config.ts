@@ -14,6 +14,7 @@ const config: Config = {
         alternative: "#85FFC3",
         colorText: "#3D1DF3",
         cardColor: "#FFFFFF",
+        deliverydp: "#C7FFB1",
       },
       screens: {
         xs: { max: "639px" },
