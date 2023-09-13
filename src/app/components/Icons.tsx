@@ -40,7 +40,7 @@ export const Logo = ({ className, ...rest }: SVGProps<SVGSVGElement>) => (
     </svg>
 )
 
-export const LogOutButton = ({className, ...rest}: SVGProps<SVGSVGElement>) => (
+export const LogOutButton = ({ className, ...rest }: SVGProps<SVGSVGElement>) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width={33}
@@ -96,3 +96,20 @@ export const LogOutButton = ({className, ...rest}: SVGProps<SVGSVGElement>) => (
         </defs>
     </svg>
 )
+
+export const ArrowIcon = ({ className, ...rest }: SVGProps<SVGSVGElement>) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width={9}
+        height={7}
+        fill="none"
+        {...rest}
+        className={`${className}`}
+    >
+        <path
+            fill="#3D1DF3"
+            d="M5.268 6.08a1 1 0 0 1-1.536 0L.239 1.89A1 1 0 0 1 1.007.25h6.986a1 1 0 0 1 .768 1.64L5.268 6.08Z"
+        />
+    </svg>
+)
+
