@@ -1,12 +1,12 @@
 import Navbar from "./commons/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Poppins } from '@next/font/google'
+import { Poppins } from "@next/font/google";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['400', '700']
-})
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Fast&Punctuals",
@@ -22,7 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <div className="bg-primary">
         <Navbar />
-        <main className={`${poppins.className} flex items-center h-screen justify-center p-4 md:p-24`}>
+        <main
+          className={`${poppins.className} container mx-auto flex items-center h-screen justify-center p-4 md:p-24`}
+        >
           {children}
         </main>
       </div>

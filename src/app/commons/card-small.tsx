@@ -1,6 +1,9 @@
-import React from "react";
+interface Props {
+  status: string;
+  className: string;
+}
 
-const CardSmall: React.FC = () => {
+const CardSmall = ({ status, className }: Props) => {
   return (
     <div className="bg-white border rounded-lg border-colorText h-20 w-[270px] flex items-center">
       <div className="border-r border-blue-500	">
@@ -12,8 +15,10 @@ const CardSmall: React.FC = () => {
           <p>Castillo 1356, CABA</p>
         </div>
         <div className=" text-colorText">
-          <div className=" text-colorText bg-deliverydp text-xs text-center rounded-full font-bold h-[15px] w-[81px] ml-4 ">
-            Entregado
+          <div
+            className={` ${className} text-colorText text-xs text-center rounded-full font-bold h-[15px] w-[81px] ml-4 `}
+          >
+            {status}
           </div>
         </div>
       </div>
