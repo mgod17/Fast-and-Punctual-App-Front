@@ -1,6 +1,6 @@
 {
   "name": "fast-and-punctual",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-
     "@next/font": "^13.4.19",
     "@heroicons/react": "^2.0.18",
     "@types/node": "20.5.9",
