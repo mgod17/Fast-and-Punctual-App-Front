@@ -14,6 +14,7 @@ const config: Config = {
         alternative: "#85FFC3",
         colorText: "#3D1DF3",
         cardColor: "#FFFFFF",
+        deliverydp: "#C7FFB1",
       },
       screens: {
         xs: { max: "639px" },
@@ -21,6 +22,9 @@ const config: Config = {
         md: { min: "768px", max: "1023px" },
         lg: { min: "1024px", max: "1279px" },
         xl: { min: "1280px", max: "2001px" },
+      },
+      height: {
+        "495": "495px",
       },
     },
   },
