@@ -8,13 +8,17 @@ interface Props {
 
 const GetCard = ({ text }: Props) => {
   const [amount, setAmount] = useState(0);
+
   const handleSubtract = () => {
     if (amount > 0) return setAmount(amount - 1);
   };
+
   const handleAdd = () => {
     return setAmount(amount + 1);
   };
+  
   useEffect(() => { }, [amount]);
+
   return (
     <div
       className="flex items-center border border-colorText h-auto w-[270px] bg-white rounded-s-lg py-px mb-2"

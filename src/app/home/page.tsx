@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../commons/button";
 import CardSmall from "../commons/card-small";
 import HomeCard from "../components/HomeCard";
@@ -23,10 +24,12 @@ const Home = () => {
         className="flex justify-center botton-4"
         style={{ marginTop: "1.2rem" }}
       >
-        <Button
-          text="Obtener paquetes"
-          className="text-white text-sm border  border-white"
-        />
+        <Link href="/packages">
+          <Button
+            text="Obtener paquetes"
+            className="bg-secundary text-primary text-sm"
+          />
+        </Link>
       </div>
     </div>
   );

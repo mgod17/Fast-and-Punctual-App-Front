@@ -41,8 +41,8 @@ const Package = () => {
                 className="flex justify-center botton-4 mt-5"
             >
                 <Button
-                    text="Obtener paquetes"
-                    className="bg-secundary text-primary text-sm "
+                    text="Iniciar jornada"
+                    className="bg-secundary text-primary text-sm"
                 />
             </div>
         </div>
