@@ -14,7 +14,7 @@ const HomeCard = ({ paquetes, text, className, children }: Props) => {
       className={` ${className} rounded-[10px] bg-cardColor shadow-md overflow-x-hidden overflow-y-auto`}
       style={{ boxShadow: "0px 2px 6px 0px rgba(0, 0, 0, 0.24)" }}
     >
-      <div className="relative top-8 left-64">
+      <div className="relative top-5 left-64">
         <ArrowIcon className="" />
       </div>
       <div className="p-2 ml-2">
