@@ -19,6 +19,11 @@ const CardSmall = ({ status, className }: Props) => {
             className={` ${className} text-colorText text-xs text-center rounded-full font-bold h-[15px] w-[81px] ml-4 `}
           >
             {status}
+            {status === "En curso" && (
+              <div className="mt-4 ml-14">
+                <img src="/delete.svg" alt="delete" />
+              </div>
+            )}
           </div>
         </div>
       </div>
