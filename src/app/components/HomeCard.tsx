@@ -1,14 +1,14 @@
 import React from "react";
 import { ArrowIcon } from "./Icons";
-import CardSmall from "../commons/card-small";
 
 interface Props {
   paquetes: number;
   text: string;
   className: string;
+  children: React.ReactNode;
 }
 
-const HomeCard = ({ paquetes, text, className }: Props) => {
+const HomeCard = ({ paquetes, text, className, children }: Props) => {
   return (
     <div
       className={` ${className} rounded-[10px] bg-cardColor shadow-md overflow-x-hidden overflow-y-auto`}
@@ -25,9 +25,7 @@ const HomeCard = ({ paquetes, text, className }: Props) => {
           {paquetes} paquetes entregados
         </h3>
       </div>
-      <div className="flex justify-center mb-4">
-        <CardSmall status="Entregado" className="bg-deliverydp" />
-      </div>
+      <div className="flex justify-center mb-4">{children}</div>
     </div>
   );
 };

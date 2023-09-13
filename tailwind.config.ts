@@ -15,6 +15,7 @@ const config: Config = {
         colorText: "#3D1DF3",
         cardColor: "#FFFFFF",
         deliverydp: "#C7FFB1",
+        inprogress: "#F8E169",
       },
       screens: {
         xs: { max: "639px" },
