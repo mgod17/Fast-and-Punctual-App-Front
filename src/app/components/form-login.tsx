@@ -31,13 +31,13 @@ export default function FormLogin() {
         <div className="mb-4">
           <ButtonLogin
             text="Ingresar"
-            className="bg-white	text-stone-600"
+            className="bg-secundary text-primary text-sm"
           ></ButtonLogin>
         </div>
         <div className="mb-4">
           <ButtonLogin
             text="Crear cuenta"
-            className="bg-inherit	text-white border border-white"
+            className="bg-inherit	text-white border border-secundary"
           ></ButtonLogin>
         </div>
         <div className="">
