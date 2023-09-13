@@ -14,7 +14,7 @@ const HomeCard = ({ paquetes }: Props) => {
                 </div>
                 <div className='p-4'>
                     <h1 className='text-base font-semibold leading-5 text-left text-colorText'>
-                        Historial de repartos
+                        Historial de repartos!
                     </h1>
 
                     <h3 className='text-xs font-normal leading-5 text-left text-colorText'>
