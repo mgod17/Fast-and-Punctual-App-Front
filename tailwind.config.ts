@@ -9,13 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#5C40FF",
-        secundary: "#0CFF87",
-        alternative: "#85FFC3",
+        primary: "#3D1DF3",
+        secundary: "00EA77",
+        alternative: "#C7FFB1",
         colorText: "#3D1DF3",
         cardColor: "#FFFFFF",
         deliverydp: "#C7FFB1",
         inprogress: "#F8E169",
+        inactive: "rgba(61, 29, 243, 0.4)",
       },
       screens: {
         xs: { max: "639px" },
