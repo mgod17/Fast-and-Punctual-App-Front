@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#3D1DF3",
-        secundary: "00EA77",
+        secundary: "#00EA77",
         alternative: "#C7FFB1",
         colorText: "#3D1DF3",
         cardColor: "#FFFFFF",
