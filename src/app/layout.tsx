@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <div className="bg-primary">
         <Navbar />
-        <main className={`${poppins.className} flex items-center h-screen justify-between p-4 md:p-24`}>
+        <main className={`${poppins.className} flex items-center h-screen justify-center p-4 md:p-24`}>
           {children}
         </main>
       </div>
