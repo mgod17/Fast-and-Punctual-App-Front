@@ -16,7 +16,7 @@ const FormRegister = () => {
               id="email"
               name="email"
               placeholder="Correo Electrónico"
-              className="pl-10 focus:outline-none  text-black w-full pr-3 py-2 border rounded-md  border-colorText placeholder-colorText"
+              className="pl-10 focus:outline-none  text-colorText w-full pr-3 py-2 border rounded-md  border-colorText placeholder-colorText"
             />
           </div>
         </div>
@@ -30,7 +30,7 @@ const FormRegister = () => {
               id="password"
               name="password"
               placeholder="Contraseña"
-              className="pl-10 focus:outline-none text-black  w-full pr-3 py-2 border rounded-md border-colorText placeholder-colorText"
+              className="pl-10 focus:outline-none text-colorText  w-full pr-3 py-2 border rounded-md border-colorText placeholder-colorText"
             />
           </div>
         </div>
@@ -44,7 +44,7 @@ const FormRegister = () => {
               id="password-repeat"
               name="password-repeat"
               placeholder="Repetir contraseña"
-              className="pl-10 text-black focus:outline-none  w-full pr-3 py-2 border rounded-md border-colorText placeholder-colorText"
+              className="pl-10 text-colorText focus:outline-none  w-full pr-3 py-2 border rounded-md border-colorText placeholder-colorText"
             />
           </div>
         </div>

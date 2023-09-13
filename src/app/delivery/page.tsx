@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../commons/button";
 import Card from "../commons/card";
 
@@ -21,10 +22,16 @@ export default function Register() {
           </div>
         </div>
       </Card>
-      <Button
-        text="Cancelar pedido"
-        className="bg-white border border-secundary	text-colorText"
-      ></Button>
+      <div
+        className="flex justify-center botton-4 mt-5"
+      >
+        <Link href="/packages">
+          <Button
+            text="Cancelar pedido"
+            className="bg-secundary text-primary text-sm"
+          />
+        </Link>
+      </div>
     </div>
   );
 }

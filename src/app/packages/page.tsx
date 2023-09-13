@@ -2,6 +2,7 @@ import React from 'react'
 import Card from '../commons/card'
 import GetCard from '../commons/card-getCard'
 import Button from '../commons/button'
+import Link from 'next/link'
 
 const Package = () => {
     return (
@@ -40,10 +41,12 @@ const Package = () => {
             <div
                 className="flex justify-center botton-4 mt-5"
             >
-                <Button
-                    text="Iniciar jornada"
-                    className="bg-secundary text-primary text-sm"
-                />
+                <Link href="/delivery">
+                    <Button
+                        text="Iniciar jornada"
+                        className="bg-secundary text-primary text-sm"
+                    />
+                </Link>
             </div>
         </div>
     )
