@@ -25,7 +25,7 @@ const Home = () => {
       >
         <Button
           text="Obtener paquetes"
-          className="text-white text-sm border border-white"
+          className="text-white text-sm border  border-white"
         />
       </div>
     </div>

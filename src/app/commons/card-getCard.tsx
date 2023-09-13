@@ -2,7 +2,11 @@
 
 import { useEffect, useState } from "react";
 
-const GetCard: React.FC = () => {
+interface Props {
+  text: string;
+}
+
+const GetCard = ({ text }: Props) => {
   const [amount, setAmount] = useState(0);
   const handleSubtract = () => {
     if (amount > 0) return setAmount(amount - 1);
@@ -10,10 +14,10 @@ const GetCard: React.FC = () => {
   const handleAdd = () => {
     return setAmount(amount + 1);
   };
-  useEffect(() => {}, [amount]);
+  useEffect(() => { }, [amount]);
   return (
     <div
-      className="flex items-center border border-colorText h-auto w-[270px] bg-white rounded-s-lg"
+      className="flex items-center border border-colorText h-auto w-[270px] bg-white rounded-s-lg py-px mb-2"
       style={{
         borderRadius: "10px",
       }}
@@ -21,13 +25,13 @@ const GetCard: React.FC = () => {
       <div className="mr-2 ml-2 h-[14px] w-[14px] flex items-center border-colorText">
         <input type="checkbox" className="form-checkbox border-colorText" />
       </div>
-      <div className="grid grid-cols-2 flex items-center border-colorText">
-        <div className="mr-2 text-blue-700 font-Poppins text-base text-xs font-normal leading-4 text-colorText">
-          Amenabar 6463 dsada dsa d as d as das da, CABA
+      <div className="grid grid-cols-2 items-center border-colorText">
+        <div className="mr-2 font-Poppins text-xs font-normal leading-4 text-colorText">
+          {text}
         </div>
 
         <div
-          className="flex justify-center items-center border border-colorText h-[26px] w-[59px] ml-12"
+          className="flex justify-center items-center border border-colorText h-[26x] w-[59px] ml-12"
           style={{
             borderRadius: "10px",
           }}
