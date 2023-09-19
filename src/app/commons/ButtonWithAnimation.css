@@ -1,0 +1,29 @@
+@keyframes moveRight {
+  0% {
+    left: 5%;
+    background-color: #04fe00;
+  }
+  100% {
+    left: 55%;
+    background-color: whitesmoke;
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    left: 55%;
+    background-color: whitesmoke;
+  }
+  100% {
+    left: 5%;
+    background-color: green;
+  }
+}
+
+.animate-moveRight {
+  animation: moveRight 2s linear forwards;
+}
+
+.animate-moveLeft {
+  animation: moveLeft 2s linear forwards;
+}
