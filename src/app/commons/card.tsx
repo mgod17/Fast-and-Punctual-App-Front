@@ -12,7 +12,7 @@ const Card = ({ text, children }: Props) => {
         </div>
         <h3 className="flex-1 text-center mr-6 font-bold"> {text} </h3>
       </div>
-      <div className="-mt-8 p-8 bg-white shadow-md rounded-lg w-80 h-495">
+      <div className="-mt-8  bg-white shadow-md rounded-lg w-80 h-495">
         {children}
       </div>
     </div>

@@ -17,7 +17,7 @@ const Package = () => {
           </a>
         </div>
 
-        <div className="mt-3">
+        <div className="mt-3 p-8">
           <div className="flex items-center">
             <GetCard text="Amenabar 6463, CABA" />
           </div>

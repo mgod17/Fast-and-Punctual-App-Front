@@ -4,7 +4,7 @@ import Button from "../commons/button";
 
 const FormRegister = () => {
   return (
-    <div className="flex flex-col items-center text-center ">
+    <div className="flex flex-col items-center text-center p-4 ">
       <form>
         <div className="mb-4 mt-24 relative">
           <div className="relative rounded-md">
