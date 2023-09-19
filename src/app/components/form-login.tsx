@@ -1,12 +1,12 @@
-"use client";
-
-import { useRouter } from "next/navigation";
+import { Children, ReactNode } from "react";
 import ButtonLogin from "../commons/button";
 import { UserIcon, LockClosedIcon } from "@heroicons/react/24/outline";
 
-export default function FormLogin() {
-  const router = useRouter();
+interface Props {
+  children: ReactNode;
+}
 
+export default function FormLogin({ children }: Props) {
   return (
     <div className="text-center w-full items-center text-sm">
       <form className="rounded px-8 pt-6 pb-8 mb-4  ">
@@ -39,24 +39,15 @@ export default function FormLogin() {
             className="bg-secundary text-primary text-sm"
           ></ButtonLogin>
         </div>
-        {!isAdminLogin && (
-          <>
-            <div className="mb-4">
-              <ButtonLogin
-                text="Crear cuenta"
-                className="bg-inherit	text-white border border-secundary"
-              ></ButtonLogin>
-            </div>
-            <div className="">
-              <a
-                className=" font-sans text-xs placeholder: text-white hover:text-alternative"
-                href="/register"
-              >
-                OLVIDÉ MI CONTRASEÑA
-              </a>
-            </div>
-          </>
-        )}
+        <>{children}</>
+        <div className="">
+          <a
+            className=" font-sans text-xs placeholder: text-white hover:text-alternative"
+            href="/register"
+          >
+            OLVIDÉ MI CONTRASEÑA
+          </a>
+        </div>
       </form>
     </div>
   );
