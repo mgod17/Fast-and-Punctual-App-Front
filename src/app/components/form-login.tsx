@@ -3,7 +3,7 @@ import { UserIcon, LockClosedIcon } from "@heroicons/react/24/outline";
 
 export default function FormLogin() {
   return (
-    <div className="text-center w-full items-center">
+    <div className="text-center w-full items-center text-sm">
       <form className="rounded px-8 pt-6 pb-8 mb-4  ">
         <div className="mb-8 flex items-center">
           <img src="/login.svg" alt="login" />
