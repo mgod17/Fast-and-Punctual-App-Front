@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Button from "../commons/button";
-import CardSmall from "../commons/card-small";
-import HomeCard from "../components/HomeCard";
+import Button from "@/app/commons/button";
+import CardSmall from "@/app/commons/card-small";
+import HomeCard from "@/app/components/HomeCard";
 
 const Home = () => {
   return (

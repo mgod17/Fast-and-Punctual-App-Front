@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Button from "../commons/button";
-import Card from "../commons/card";
+import Button from "@/app/commons/button";
+import Card from "@/app/commons/card";
 
 export default function Register() {
   return (
@@ -22,9 +22,7 @@ export default function Register() {
           </div>
         </div>
       </Card>
-      <div
-        className="flex justify-center botton-4 mt-5"
-      >
+      <div className="flex justify-center botton-4 mt-5">
         <Link href="/packages">
           <Button
             text="Cancelar pedido"

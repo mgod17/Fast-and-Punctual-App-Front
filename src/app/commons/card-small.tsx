@@ -31,3 +31,4 @@ const CardSmall = ({ status, className }: Props) => {
   );
 };
 export default CardSmall;
+
