@@ -13,7 +13,6 @@ const ButtonEnableAndDisable: React.FC = () => {
   const animationClass = isMovingRight
     ? "animate-moveRight"
     : "animate-moveLeft";
-
   return (
     <button className="bg-white w-16 h-8 rounded-full" onClick={handleClick}>
       <div
