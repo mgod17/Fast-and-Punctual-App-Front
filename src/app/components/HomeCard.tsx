@@ -22,7 +22,7 @@ const HomeCard = ({ paquetes, text, className, children }: Props) => {
           {text}
         </h1>
         <h3 className="text-xs font-normal leading-5 text-left text-colorText">
-          {paquetes} paquetes entregados
+          {paquetes ? `${paquetes} entregados` : "Sin repartos pendientes"}
         </h3>
       </div>
       <div className="flex justify-center mb-4">{children}</div>

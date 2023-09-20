@@ -16,8 +16,8 @@ const GetCard = ({ text }: Props) => {
   const handleAdd = () => {
     return setAmount(amount + 1);
   };
-  
-  useEffect(() => { }, [amount]);
+
+  useEffect(() => {}, [amount]);
 
   return (
     <div
@@ -35,7 +35,7 @@ const GetCard = ({ text }: Props) => {
         </div>
 
         <div
-          className="flex justify-center items-center border border-colorText h-[26x] w-[59px] ml-12"
+          className="flex justify-center items-center border border-colorText h-[26px] w-[59px] ml-12"
           style={{
             borderRadius: "10px",
           }}
