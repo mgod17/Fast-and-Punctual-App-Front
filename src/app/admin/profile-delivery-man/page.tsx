@@ -2,18 +2,18 @@
 
 import React, { useState } from "react";
 import CardProfileDeliveryMan from "@/app/commons/card-profileDeliveryMan";
-import Card from "@/app/commons/card";
-import HomeCard from "@/app/components/HomeCard";
 import CardSmall from "@/app/commons/card-small";
+import CardProfile from "@/app/commons/card-profile";
+import HomeCard from "@/app/components/HomeCard";
 
 export default function ProfileDeliveryMan() {
   const [paquete, setPaquete] = useState(0);
 
   return (
     <div>
-      <Card text="Perfil del repartidor">
+      <CardProfile text="Perfil del repartidor">
         <CardProfileDeliveryMan />
-      </Card>
+      </CardProfile>
       <div className="mb-5 mt-3 ">
         <HomeCard paquetes={paquete} text="Repartos pendientes" className="">
           {paquete ? (
